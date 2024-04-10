@@ -102,7 +102,6 @@ const matches = (function() {
 let currentMatch = null;
 
 function startDuel() {
-    console.dir(matches);
     history.push(currentMatch);
     currentMatch = matches.shift();
 
@@ -146,7 +145,6 @@ function displayRound() {
 
     document.getElementById('duel').style.display = 'block';
     document.getElementById('winner').style.display = 'none';
-    document.getElementById('nextBtn').style.display = 'none';
 }
 
 function chooseWinner(winnerIndex) {
@@ -175,8 +173,6 @@ function displayWinner() {
     });
 
     document.getElementById('duel').style.display = 'none';
-    document.getElementById('nextBtn').style.display = 'block';
 }
-
 
 startDuel();
