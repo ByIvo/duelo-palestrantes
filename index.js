@@ -53,6 +53,7 @@ const people = [
   new Person("Elemar Jr.", "https://www.linkedin.com/in/elemarjr/"),
   new Person("Geraldo", "https://www.linkedin.com/in/exageraldo/"),
   new Person("Fernando Ambev", "https://www.linkedin.com/in/fcelarino/"),
+  new Person("Mano Deyvin", "https://www.linkedin.com/company/chorume/"),
   new Person("Loiane", "https://www.linkedin.com/in/loiane/"),
   new Person("Guilherme Gopher Con", "https://www.linkedin.com/in/guilhermebr/"),
   new Person("Tais Mafioleti", "https://www.linkedin.com/in/ta%C3%ADs-mafioleti"),
